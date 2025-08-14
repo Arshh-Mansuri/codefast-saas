@@ -1,7 +1,6 @@
 import ButtonLogin from "./components/ButtonLogin";
 import FAQListItem from "./components/FAQListItem";
-import Image from "next/image";
-import productDemo from "@/logo.png";
+
 export default function Home() {
   const isLoggedIn = true; // This can be replaced with actual authentication logic
   const name = "Arsh";
@@ -10,7 +9,7 @@ export default function Home() {
     "Team collaboration",
     "Priority support",
   ];
-
+  console.log(process.env.MONGO_URI);
   return (
     <main>
       <section className=" bg-base-200 ">
