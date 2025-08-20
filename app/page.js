@@ -1,9 +1,9 @@
 import ButtonLogin from "./components/ButtonLogin";
 import FAQListItem from "./components/FAQListItem";
-
 export default function Home() {
   const isLoggedIn = true; // This can be replaced with actual authentication logic
   const name = "Arsh";
+
   const pricingFeatures = [
     "Unlimited feedback boards",
     "Team collaboration",
